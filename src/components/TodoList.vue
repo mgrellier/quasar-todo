@@ -1,5 +1,5 @@
 <template>
-  <q-card inline style="width: 500px; max-width: 90vw">
+  <q-card inline style="width: 350px; max-width: 90vw">
     <q-card-media>
       <img src="/statics/img/todo.jpg">
     </q-card-media>
