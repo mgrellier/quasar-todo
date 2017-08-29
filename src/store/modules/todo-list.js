@@ -1,6 +1,8 @@
+export const STORAGE_KEY = 'vue-todo'
+
 // shape [{text, done}]
 const state = {
-  list: []
+  list: JSON.parse(window.localStorage.getItem(STORAGE_KEY) || '[]')
 }
 
 const getters = {
