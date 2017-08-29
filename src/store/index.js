@@ -11,22 +11,7 @@ const modules = {
   todoList
 }
 
-const state = {
-
-}
-
-const getters = {
-
-}
-
-const mutations = {
-
-}
-
 export default new Vuex.Store({
   modules,
-  state,
-  getters,
-  mutations,
   strict: debug
 })
